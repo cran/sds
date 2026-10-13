@@ -1,0 +1,26 @@
+Package: sds
+Title: Spatial Data Sources
+Version: 0.3.0
+Authors@R: 
+    person("Michael", "Sumner", , "mdsumner@gmail.com", role = c("aut", "cre", "cph"))
+Description: Descriptions of spatial data sources that can be read
+ directly with or without download. Most sources are readable by 'GDAL' software. 
+ There are functions for imagery, elevation, and a variety of easily accessible 
+ data streams including image tile servers, links to online files, and geographic
+ data services. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://github.com/hypertidy/sds
+BugReports: https://github.com/hypertidy/sds/issues
+Imports: countrycode, dsn (>= 0.1.0), tibble
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 2.10)
+LazyData: true
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-01 09:16:36 UTC; mdsumner
+Author: Michael Sumner [aut, cre, cph]
+Maintainer: Michael Sumner <mdsumner@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-13 14:50:02 UTC
